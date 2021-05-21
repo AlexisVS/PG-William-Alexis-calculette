@@ -1,5 +1,5 @@
-import { numberABF } from "variables.js";
-import { addition, soustraction, multiplication, division, numberReset } from "operation.js";
+import { numberABF } from "./modules/variables.js";
+import { addition, soustraction, multiplication, division, numberReset } from "./modules/operations.js";
 //la div qui contient tout
 let divMain = document.createElement('div');
 divMain.id = "body";
