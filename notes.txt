@@ -1,0 +1,14 @@
+# Pour faire 5 + 4
+# je clique sur le bouton 5
+je doit push le nombre 5 dans numberABF[0]
+# je clique sur le bouton +
+je doit dire que lorsque j'aurais cliquer sur "=" alors la fonction "+" se lancera
+# je clique sur le bouton 4
+je doit push le nombre 4
+# je clique sur le bouton =
+Lorsque je clique sur le bouton "="
+la fonction 
+
+
+
+### !!! ranger les les 3 valeurs ( a, b, f) dans un tableau;
