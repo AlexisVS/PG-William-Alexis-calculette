@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+}
+
+#body {
+  width: 300px;
+  margin: auto auto;
+  background-color: blue;
+  padding: 10px;
+}
+#body #resultat {
+  height: 50px;
+  margin: 10px;
+  background-color: white;
+}
+#body #operations {
+  display: flex;
+  margin: 10px;
+}
+#body #operations #numbers {
+  display: flex;
+  flex-wrap: wrap;
+}
+#body #operations #numbers #number1 {
+  order: 1;
+}
+#body #operations #numbers #number2 {
+  order: 2;
+}
+#body #operations #numbers #number3 {
+  order: 3;
+}
+#body #operations #numbers #number4 {
+  order: 4;
+}
+#body #operations #numbers #number5 {
+  order: 5;
+}
+#body #operations #numbers #number6 {
+  order: 6;
+}
+#body #operations #numbers #number7 {
+  order: 7;
+}
+#body #operations #numbers #number8 {
+  order: 8;
+}
+#body #operations #numbers #number9 {
+  order: 9;
+}
+#body #operations #numbers #numberReset {
+  order: 10;
+}
+#body #operations #numbers #number0 {
+  order: 11;
+}
+#body #operations #numbers #numberResult {
+  order: 12;
+}
+
+button {
+  margin: 5px;
+  width: 50px;
+  height: 50px;
+}
+
+/*# sourceMappingURL=app.css.map */
