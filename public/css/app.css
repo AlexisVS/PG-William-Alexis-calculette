@@ -1,5 +1,15 @@
 body {
   margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 100vh;
 }
 
 #body {
@@ -8,54 +18,100 @@ body {
   background-color: blue;
   padding: 10px;
 }
+
 #body #resultat {
   height: 50px;
-  margin: 10px;
+  width: 100%;
+  margin: 10px 0;
   background-color: white;
+  font-size: 2rem;
 }
+
 #body #operations {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin: 10px;
 }
+
 #body #operations #numbers {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
+
 #body #operations #numbers #number1 {
-  order: 1;
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
 }
+
 #body #operations #numbers #number2 {
-  order: 2;
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
 }
+
 #body #operations #numbers #number3 {
-  order: 3;
+  -webkit-box-ordinal-group: 4;
+      -ms-flex-order: 3;
+          order: 3;
 }
+
 #body #operations #numbers #number4 {
-  order: 4;
+  -webkit-box-ordinal-group: 5;
+      -ms-flex-order: 4;
+          order: 4;
 }
+
 #body #operations #numbers #number5 {
-  order: 5;
+  -webkit-box-ordinal-group: 6;
+      -ms-flex-order: 5;
+          order: 5;
 }
+
 #body #operations #numbers #number6 {
-  order: 6;
+  -webkit-box-ordinal-group: 7;
+      -ms-flex-order: 6;
+          order: 6;
 }
+
 #body #operations #numbers #number7 {
-  order: 7;
+  -webkit-box-ordinal-group: 8;
+      -ms-flex-order: 7;
+          order: 7;
 }
+
 #body #operations #numbers #number8 {
-  order: 8;
+  -webkit-box-ordinal-group: 9;
+      -ms-flex-order: 8;
+          order: 8;
 }
+
 #body #operations #numbers #number9 {
-  order: 9;
+  -webkit-box-ordinal-group: 10;
+      -ms-flex-order: 9;
+          order: 9;
 }
+
 #body #operations #numbers #numberReset {
-  order: 10;
+  -webkit-box-ordinal-group: 11;
+      -ms-flex-order: 10;
+          order: 10;
 }
+
 #body #operations #numbers #number0 {
-  order: 11;
+  -webkit-box-ordinal-group: 12;
+      -ms-flex-order: 11;
+          order: 11;
 }
+
 #body #operations #numbers #numberResult {
-  order: 12;
+  -webkit-box-ordinal-group: 13;
+      -ms-flex-order: 12;
+          order: 12;
 }
 
 button {
@@ -63,5 +119,4 @@ button {
   width: 50px;
   height: 50px;
 }
-
 /*# sourceMappingURL=app.css.map */

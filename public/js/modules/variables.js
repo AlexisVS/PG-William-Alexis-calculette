@@ -1,1 +1,0 @@
-export let numberABF; // [numberA, numberB, symboleDeLaFunction]
